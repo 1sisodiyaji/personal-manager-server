@@ -27,7 +27,7 @@ app.use(express.json());
 connectDB();
 
 app.get('/', (req, res) => {
-  res.send('Task Management API Server');
+  res.send('Welcome To Personal Manager');
 });
 
 app.use('/api', playroutes);
